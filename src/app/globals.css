@@ -1,26 +1,109 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'Mont';
+  src: url('/fonts/Mont-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: 'Mont';
+  src: url('/fonts/Mont-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html {
+  scroll-behavior: smooth;
+  background-color: #040308;
+}
+
+@layer components {
+  .text-title-main {
+    @apply bg-gradient-to-b from-[#FFF] to-[#999] bg-clip-text text-center text-[38px] leading-[37px] font-semibold tracking-[-0.04em] whitespace-pre-line text-transparent sm:text-[57px] sm:leading-[65px] lg:text-[67px] lg:leading-[75px] xl:text-[72px] xl:leading-[80px];
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .text-subtitle-main {
+    @apply text-center text-[18px] leading-[22px] font-light tracking-[0] whitespace-pre-line text-[#FFF]/80 md:text-[20px] md:leading-[30px];
+  }
+
+  /* .btn-text {
+    @apply;
+  } */
+
+  .btn-shadow {
+    box-shadow: 0px 5.11px 12.77px 0px #522f76;
+  }
+  .card-shadow {
+    box-shadow: 0px 5.88px 108.79px 0px #3d315b;
+  }
+  .footer-shadow {
+    box-shadow: 0px -5.88px 108.79px 0px #3d315b;
+  }
+
+  .header-text {
+    font-weight: 400;
+    font-style: Regular;
+    leading-trim: NONE;
+    line-height: 38.18px;
+    letter-spacing: -0.01%;
+    vertical-align: middle;
+    @apply text-[18px] text-nowrap xl:text-[21px];
+  }
+
+  .white-text {
+    font-weight: 274;
+    font-style: Light;
+    font-size: 15px;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    font-variant-numeric-figure: lining-nums;
+    font-variant-numeric-spacing: tabular-nums;
+    font-variant-numeric-fraction: stacked-fractions;
+    @apply sm:text-[21px];
+  }
+  .pay-text {
+    font-weight: 510;
+    font-style: Medium;
+    font-size: 15;
+    leading-trim: NONE;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    font-variant-numeric-figure: lining-nums;
+    font-variant-numeric-spacing: tabular-nums;
+    font-variant-numeric-fraction: stacked-fractions;
+    @apply sm:text-[21px];
+  }
+  .violet-gradient {
+    @apply bg-[linear-gradient(96.71deg,rgba(103,36,245,0.08)_0%,rgba(103,36,245,0.08)_101.64%)];
+  }
+
+  .roadmap-title {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 32px;
+    letter-spacing: 0%;
+    @apply bg-[linear-gradient(94.97deg,#FFFFFF_26.31%,#000000_70%)] bg-clip-text text-transparent;
+  }
+
+  .roadmap-subtitle {
+    font-weight: 274;
+    font-style: Light;
+    font-size: 15px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #c7c7cc;
+  }
+  .button {
+    @apply cursor-pointer rounded-lg bg-gradient-to-b from-[#952BFF] to-[#451576] py-2 hover:from-[#451576] hover:to-[#952BFF] md:px-6 lg:px-8 xl:px-8;
+  }
 }

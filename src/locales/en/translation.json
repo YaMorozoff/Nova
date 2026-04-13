@@ -1,0 +1,129 @@
+{
+  "header": {
+    "get": "Get Card",
+    "nova": "Nova",
+    "roadmap": "Roadmap",
+    "faq": "FAQs",
+    "btn": "Apply for Card"
+  },
+
+  "hero": {
+    "subtitle": "Receive, send, store, exchange, and pay with tokens from any chains, anywhere in the world. Instant conversion, non-KYC.",
+    "pay": "Connect and pay with ",
+    "btn": "Apply for Card"
+  },
+  "virtualCard": {
+    "title": "Virtual NOVA Card",
+    "subtitle": "Connect any Web3 wallet:",
+    "subtitle1": "Issue a virtual card, link it to Apple Pay or Google Pay, and pay worldwide without limits.",
+    "btn": "Apply for Nova Card"
+  },
+  "choose": {
+    "title": "Why Choose Nova Card",
+    "subtitle": "At Nova Card, we prioritize innovation, security, and anonymous payments, while keeping everything user-friendly. That’s why we are the trusted choice for your financial needs.",
+    "innovation": {
+      "title": "Innovation",
+      "subtitle": "We constantly develop new technologies to simplify and improve your financial management experience."
+    },
+    "security": {
+      "title": "Security",
+      "subtitle": "Our state-of-the-art encryption and error detection systems ensure your funds are always protected."
+    },
+    "comfort": {
+      "title": "Convenience",
+      "subtitle": "Apple Pay & Google Pay support. Just connect and start paying."
+    },
+    "integration": {
+      "title": "Web3 Wallet Integration",
+      "subtitle": "Connect your Web3 wallet and integrate it with Nova Card. Issue your card and pay seamlessly."
+    },
+    "convertation": {
+      "title": "Conversion",
+      "subtitle": "Instant conversion of any token from any network without withdrawing funds from your wallet."
+    },
+    "cashback": {
+      "title": "Cashback & Bonus System",
+      "subtitle": "Cashback in $NOVA tokens, plus a flexible referral bonus system in project tokens."
+    },
+    "global": {
+      "title": "Global Availability",
+      "subtitle": "Accepted in 150+ countries. Connect and pay worldwide."
+    },
+    "nobank": {
+      "title": "No Banks or Intermediaries",
+      "subtitle": "Non-KYC system, no banks, no middlemen. Full control over your funds."
+    },
+    "btn": "Get Nova Card"
+  },
+  "partners": { "title": "NOVA Card Partners" },
+  "roadmap": {
+    "title": "Roadmap",
+    "subtitle": "At Nova Card, we’re building more than just a product — we’re creating an ecosystem that keeps evolving. Our roadmap includes regular updates, improvements, and major announcements aimed at making your financial operations safer, more convenient, and faster. We listen carefully to user needs and plan steps ahead to stay at the forefront of fintech innovation.",
+    "q1": { "title": "Q3 2025", "subtitle": "MVP development \nWebsite, app, service \nOn-chain integration" },
+    "q2": { "title": "Q4 2025", "subtitle": "$NOVA tokenomics\nToken creation (contract,\n audit, testing)" },
+    "q3": {
+      "title": "Q1 2026",
+      "subtitle": "Launch date announcement\nSnapshot entry conditions: \nactivity, transaction volume"
+    },
+    "q4": { "title": "Q1 2026", "subtitle": "User activity snapshot\nXP-to-token" },
+    "q8": {
+      "title": "Q2 2026",
+      "subtitle": "Cashback & rewards system \nfor $NOVA transactions\nPayments in $NOVA with\n instant conversion"
+    },
+    "q7": {
+      "title": "Q2 2026",
+      "subtitle": "Token staking launch\nFirst listing (DEX, later CEX)\nAdding token to farming/DeFi protocols"
+    },
+    "q6": {
+      "title": "Q2 2026",
+      "subtitle": "Genesis airdrop (Phase 1) for\n early users"
+    },
+    "q5": { "title": "Q1 2026", "subtitle": "Full whitepaper release\nDistribution, lockups, utility" }
+  },
+  "limits": {
+    "t1": {
+      "title": "Set Spending Limits",
+      "subtitle": "Control expenses, set limits, and manage your funds fully."
+    },
+    "t2": {
+      "title": "Pay Like a Bank Card",
+      "subtitle": "Accepted in 150+ countries. Connect and pay worldwide."
+    },
+    "t3": {
+      "title": "Transaction Tracking",
+      "subtitle": "Monitor your purchases and transactions in Nova Card’s user-friendly interface."
+    }
+  },
+  "faq": {
+    "title": "Часто задаваемые вопросы",
+    "subtitle": "Everything you need to know.",
+    "q1": "How to connect a wallet?",
+    "a1": "Wallet integration is done by connecting it to the Nova Card service website. Immediately after connecting, the service will automatically calculate the balance, and once the virtual card is issued, you can make purchases worldwide without limits with instant conversion.",
+    "q2": "In which countries does the card work?",
+    "a2": "Available in over 150 countries — connect and pay for purchases worldwide.",
+    "q3": "Is KYC required?",
+    "a3": "We value the anonymity and security of our clients, which is why our service follows the non-KYC approach — so that every user can enjoy the maximum experience of using Nova Card.",
+    "q4": "What are the fees when paying?",
+    "a4": "The Nova Card service has adopted a zero-commission policy, meaning no fees are charged to users for using the service, making payments, or transfers.",
+    "q5": "How does cashback work?",
+    "a5": "According to the roadmap, in Q2 2026 a detailed article with a guide to Nova Card’s bonus system and cashback will be published."
+  },
+  "footer": {
+    "title": "Management NOVA inc.",
+    "subtitle": "Nova Inc. All rights reserved.",
+    "nova": {
+      "title": "NOVA",
+      "t1": "Benefits",
+      "t2": "Partners",
+      "t3": "Roadmap",
+      "t4": "NOVA app",
+      "t5": "FAQ"
+    },
+    "get": {
+      "title": "Apply for",
+      "t1": "Get Nova Card",
+      "t2": "Ecosystem",
+      "t3": "Virtual Nova Card"
+    }
+  }
+}
